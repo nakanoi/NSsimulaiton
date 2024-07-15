@@ -306,7 +306,9 @@ if __name__ == '__main__':
         the = 0
         v0 = 5.0
         model = Simulate2D(room_x, room_y)
-        model.update(h, v0, the, time_range, arrow=False)
+        # Pass arrow as True to generate arrow-based image
+        # instead of particle moving images
+        model.update(h, v0, the, time_range, arrow=True)
     elif sys.argv[1] == '3D':
         the = 60
         pha = 30
