@@ -51,7 +51,7 @@ Args in main function is `lx`, `ly`, (`lz` when you want to simulate 3D room), `
 I put the meanings of each arge above.  
 Output format is a animation file(animation_v0_theta.mp4) written by ffmpeg.  
 This will be created in this current directory.  
-## EXSAMPLE
+## EXAMPLE
 ```sh
 $ python simulater.py 2D
 ```
